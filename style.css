@@ -1,0 +1,612 @@
+/************ FORSIDE***********/
+
+@font-face {
+    font-family: 'vogueregular';
+    src: url('fonts/vogue-webfont.woff2') format('woff2'),
+        url('fonts/vogue-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    margin: 0;
+    background-color: #C8C8C8;
+
+}
+
+
+#splash {
+    z-index: -1;
+    position: relative;
+}
+
+
+
+
+img {
+    width: 100%;
+}
+
+#tema_cirkler {
+    display: flex;
+    flex-basis: 200px;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+
+
+}
+
+
+
+#dot1 {
+    height: 150px;
+    width: 150px;
+    background-color: #E9E5E9;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 2em;
+    cursor: pointer;
+
+
+
+
+
+
+}
+
+
+
+
+#dot2 {
+    height: 150px;
+    width: 150px;
+    background-color: #E9E5E9;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 2em;
+    cursor: pointer;
+
+
+
+}
+
+
+
+#dot3 {
+    height: 150px;
+    width: 150px;
+    background-color: #E9E5E9;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 2em;
+    cursor: pointer;
+
+
+}
+
+
+#dot4 {
+    height: 150px;
+    width: 150px;
+    background-color: #E9E5E9;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 2em;
+    cursor: pointer;
+
+
+
+}
+
+#dot1 p {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 1.8em;
+    font-family: ariel;
+    color: #707070;
+    font-family: 'Arapey', serif;
+
+}
+
+#dot2 p {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 1.8em;
+    font-family: ariel;
+    color: #707070;
+    font-family: 'Arapey', serif;
+
+}
+
+
+#dot3 p {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 1.8em;
+    font-family: ariel;
+    color: #707070;
+    font-family: 'Arapey', serif;
+
+}
+
+
+#dot4 p {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 1.8em;
+    font-family: ariel;
+    color: #707070;
+    font-family: 'Arapey', serif;
+
+}
+
+#dot1 a {
+    text-decoration: none;
+}
+
+
+#dot2 a {
+    text-decoration: none;
+
+}
+
+#dot3 a {
+    text-decoration: none;
+
+}
+
+#dot4 a {
+    text-decoration: none;
+
+}
+
+
+
+
+
+#om {
+    font-size: 2em;
+    text-align: center;
+    color: black;
+    font-family: 'Arapey', serif;
+
+}
+
+#om a {
+    text-decoration: none;
+    color: #707070;
+    ;
+}
+
+
+
+
+/***** TEMA  - 4 overskifter*****/
+
+i {
+    border: solid #E9E5E9;
+    ;
+    ;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 1em;
+    margin-left: 0.5em;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+#overskrift_tema {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 1.5em;
+    color: #E9E5E9;
+
+
+
+
+}
+
+#overskrift_tema h1 {
+    margin-left: 0.5em;
+    margin-top: 0.1em;
+    display: flex;
+
+
+}
+
+
+
+
+/*********** TEMA 1***********/
+
+
+#tema1 .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#tema1 img {
+    width: 90%;
+}
+
+#tema1 .column {
+    flex-grow: 1;
+    flex-basis: 300px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+    margin-left: 1.5rem;
+    line-height: 2rem;
+    margin-top: 2rem;
+    margin-right: 1em;
+    margin-bottom: 2rem;
+    background-color: #E9E5E9;
+    color: #707070;
+
+
+
+}
+
+#tema1 h2 {
+    font-size: 2rem;
+    color: #707070;
+    font-family: 'Arapey', serif;
+
+
+}
+
+.artdeco {
+    margin-top: -2em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+
+}
+
+/*
+.column img{
+    width: 33em;
+    margin-left: 1em;
+}
+*/
+
+
+
+
+
+/***** TEMA 2*****/
+
+#tema2 img {
+    width: 100%;
+}
+
+
+
+#tema2 .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+}
+
+#tema2 h2 {
+    font-size: 2rem;
+    color: #707070;
+    font-family: 'Arapey', serif;
+
+}
+
+#tema2 .column {
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 1rem;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    background-color: #E9E5E9;
+    line-height: 2em;
+
+}
+
+
+.kaffevideo {
+    width: 25em;
+    height: 40em;
+    background-color: #F8F8F8;
+    margin-left: 10em;
+    color: #707070;
+    font-family: 'Arapey', serif;
+
+}
+
+.kaffevideo img {
+    margin-left: 2.5em;
+}
+
+.danadoodles {
+    width: 25em;
+    height: 20em;
+    background-color: #F8F8F8;
+    margin-left: 7em;
+    color: #707070;
+    font-family: 'Arapey', serif;
+
+}
+
+.danadoodles img {
+    width: 90%;
+    margin-left: 1.3em;
+    margin-top: -1em;
+}
+
+.kaffevideo_tekst {
+    width: 25em;
+    height: 12em;
+    background-color: #E9E5E9;
+    margin-left: 10em;
+}
+
+.danadoodles_tekst {
+    width: 25em;
+    height: 12em;
+    background-color: #E9E5E9;
+    margin-left: 7em;
+    color: #707070;
+}
+
+/***** TEMA 3*****/
+
+#animation img {
+    width: 100%;
+
+}
+
+#animation .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+
+
+
+
+}
+
+#animation .column {
+    flex-grow: 1;
+    flex-basis: 200px;
+    padding: 1rem;
+    margin-left: 1em;
+    font-size: 1.1rem;
+    background-color: #E9E5E9;
+    margin-top: 1em;
+    margin-right: 1em;
+    line-height: 2em;
+
+}
+
+#animation .column h2 {
+    font-size: 2rem;
+    color: #707070;
+    font-family: 'Arapey', serif;
+}
+
+#animation p {
+    color: #707070;
+    line-height: 2rem;
+}
+
+/*
+.animation_spil {
+    margin-top: 1em;
+}
+*/
+
+
+/***** TEMA 4*****/
+
+#ux .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+}
+
+#ux1 .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+}
+
+#ux h2 {
+    font-size: 2rem;
+    color: #707070;
+    font-family: 'Arapey', serif;
+
+}
+
+#ux1 h2 {
+    font-size: 2rem;
+    color: #707070;
+    font-family: 'Arapey', serif;
+
+}
+
+#ux .column {
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 1rem;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-right: 1em;
+    background-color: #E9E5E9;
+    line-height: 2em;
+
+}
+
+#ux1 .column {
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 1rem;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-right: 1em;
+    background-color: #E9E5E9;
+    line-height: 2em;
+
+}
+
+
+
+#ux img {
+    width: 100%;
+}
+
+
+#ux p {
+    color: #707070;
+}
+
+#ux1 img {
+    width: 100%;
+}
+
+
+#ux1 p {
+    color: #707070;
+}
+
+
+
+
+
+/************** OM MIG ***********/
+
+
+
+#ommig .sectionwrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#ommig h2 {
+    font-family: 'Arapey', serif;
+    color: #707070;
+
+}
+
+#ommig .column {
+    flex-grow: 1;
+    flex-basis: 200px;
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.1rem;
+    margin-top: 1em;
+    background-color: #E9E5E9;
+    line-height: 2rem;
+
+
+
+}
+
+
+
+
+
+#ommig .column li,
+p,
+a {
+    margin-top: 1.3em;
+    color: #707070;
+    text-decoration: none;
+}
+
+
+
+.amalie_billede {
+    width: 80%;
+    margin-left: 2.2em;
+    margin-top: 4em;
+
+}
+
+.amalie_underskrift {
+    width: 80%;
+    margin-left: 4em;
+}
+
+
+
+
+/********** FOOTER ***********/
+
+footer {
+    font-size: 1em;
+}
+
+
+/*************** EFFEKTER ****************/
+
+
+
+
+.pulse {
+    animation-name: pulse_kf;
+    animation-duration: 1.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+
+
+@keyframes pulse_kf {
+    0% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+
+
+
+
+
+.dissappear {
+    animation-name: dissappear_kf;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(.59, -0.56, .77, 1.34);
+    animation-fill-mode: forwards;
+}
+
+@keyframes dissappear_kf {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(0);
+    }
+}
+
+
+.paused {
+    animation-play-state: paused;
+}
